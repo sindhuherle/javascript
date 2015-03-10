@@ -6,7 +6,7 @@ var uri = "mongodb://amit:desh@ds031691.mongolab.com:31691/mydatabase";
 var app = express();
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
-
+fchn fjk
 app.post('/', function(request, response) {
 				var body='';
 				request.on('data', function (data) {
